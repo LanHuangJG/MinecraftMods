@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ex:WindowEx x:ConnectionId='1'
+	x:Class="MinecraftMods.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:animations="using:CommunityToolkit.WinUI.Animations"
+	xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:entries="using:MinecraftMods.Entries"
+	xmlns:ex="using:WinUIEx"
+	xmlns:ic="using:FluentIcons.WinUI"
+	xmlns:local="using:MinecraftMods"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:mcontrols="using:MinecraftMods.Controls"
+	xmlns:wuc="using:DevWinUI"
+	Title="MinecraftMods"
+	mc:Ignorable="d">
+	<ex:WindowEx.SystemBackdrop>
+		<MicaBackdrop />
+	</ex:WindowEx.SystemBackdrop>
+	<Grid>
+		<Grid.Resources>
+			<animations:ImplicitAnimationSet x:ConnectionId='2' x:Name="ShowTransitions">
+				<animations:OffsetAnimation
+					EasingMode="EaseOut"
+					From="0,24,0"
+					To="0"
+					Duration="0:0:0.4" />
+				<animations:OpacityAnimation
+					EasingMode="EaseOut"
+					From="0"
+					To="1"
+					Duration="0:0:0.2" />
+			</animations:ImplicitAnimationSet>
+			<animations:ImplicitAnimationSet x:ConnectionId='3' x:Name="HideTransitions">
+				<animations:OffsetAnimation
+					EasingMode="EaseOut"
+					From="0"
+					To="0,24,0"
+					Duration="0:0:0.2" />
+				<animations:OpacityAnimation
+					EasingMode="EaseOut"
+					From="1"
+					To="0"
+					Duration="0:0:0.1" />
+			</animations:ImplicitAnimationSet>
+		</Grid.Resources>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<controls:TitleBar
+			Title="MIneCraftMods"
+			DisplayMode="Tall"
+			Icon="{ic:SymbolIcon Symbol=CodeBlock}" />
+		<Grid Grid.Row="1">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="auto" />
+				<RowDefinition />
+				<RowDefinition Height="auto" />
+
+			</Grid.RowDefinitions>
+			<StackPanel Orientation="Horizontal" Spacing="16">
+				<TextBox x:ConnectionId='10' PlaceholderText="请输入您要搜索的模组名"                                                />
+				<mcontrols:IconButton x:ConnectionId='11'
+					                                          
+					Icon="Search"
+					Text="你好啊，我的第一个自定义组件!!!" />
+
+			</StackPanel>
+
+			<ListView x:ConnectionId='4' Grid.Row="1"                                                       >
+				<ListView.ItemContainerStyle>
+					<Style TargetType="ListViewItem" />
+				</ListView.ItemContainerStyle>
+				<ListView.ItemTemplate>
+					<DataTemplate                             >
+						<StackPanel x:ConnectionId='6'
+							VerticalAlignment="Center"
+							Orientation="Horizontal"
+							Spacing="16">
+							<Image x:ConnectionId='7'
+								Width="64"
+								Height="64"
+								                      
+								Stretch="Uniform" />
+							<StackPanel>
+								<TextBlock x:ConnectionId='8'                       />
+								<TextBlock x:ConnectionId='9'                             />
+							</StackPanel>
+						</StackPanel>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+			<wuc:PagerControl DisplayMode="Auto" NumberOfPages="10" Grid.Row="2"/>
+		</Grid>
+	</Grid>
+
+</ex:WindowEx>
+

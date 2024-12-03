@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MinecraftMods (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MinecraftMods (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

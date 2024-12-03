@@ -1,0 +1,2084 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Richasy.WinUI.Share</name>
+    </assembly>
+    <members>
+        <member name="T:Richasy.WinUI.Share.Base.AppNavigationViewItem">
+            <summary>
+            应用导航视图项.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppNavigationViewItem.SymbolProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppNavigationViewItem.Symbol"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppNavigationViewItem.ShowUnreadProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppNavigationViewItem.ShowUnread"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppNavigationViewItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.AppNavigationViewItem"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppNavigationViewItem.Symbol">
+            <summary>
+            图标.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppNavigationViewItem.ShowUnread">
+            <summary>
+            是否显示未读消息.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.AppNavigationViewItemPresenter">
+            <summary>
+            应用导航视图项显示器.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppNavigationViewItemPresenter.SymbolProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppNavigationViewItemPresenter.Symbol"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppNavigationViewItemPresenter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.AppNavigationViewItemPresenter"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppNavigationViewItemPresenter.Symbol">
+            <summary>
+            图标.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.AppTitleBar">
+            <summary>
+            应用标题栏.
+            </summary>
+            <summary>
+            应用标题栏.
+            </summary>
+            <summary>
+            应用标题栏.
+            </summary>
+            <summary>
+            应用标题栏.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppTitleBar.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.AppTitleBar"/> class.
+            </summary>
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.AppTitleBar.BackRequested">
+            <summary>
+            后退请求.
+            </summary>
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.AppTitleBar.PaneToggleRequested">
+            <summary>
+            切换导航面板请求.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppTitleBar.DelayUpdateAsync(System.Int32)">
+            <summary>
+            延迟更新 UI.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppTitleBar.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppTitleBar.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppTitleBar.OnControlUnloaded">
+            <inheritdoc/>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.HeaderProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.Header"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.IconElementProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.IconElement"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.TitleProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.Title"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.SubtitleProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.Subtitle"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.ContentProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.Content"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.FooterProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.Footer"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.IsBackButtonVisibleProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.IsBackButtonVisible"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.IsBackEnabledProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.IsBackEnabled"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.IsPaneToggleButtonVisibleProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.IsPaneToggleButtonVisible"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.TemplateSettingsProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.TemplateSettings"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.BackIconProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.BackIcon"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.TitleMaxWidthProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.TitleMaxWidth"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBar.CenterContentProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBar.CenterContent"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.Header">
+            <summary>
+            头部内容.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.IconElement">
+            <summary>
+            图标资源.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.Title">
+            <summary>
+            标题.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.Subtitle">
+            <summary>
+            副标题.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.Content">
+            <summary>
+            标题栏主体内容.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.CenterContent">
+            <summary>
+            标题栏居中的内容.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.Footer">
+            <summary>
+            标题栏靠近标题按钮一侧的内容.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.IsBackButtonVisible">
+            <summary>
+            是否显示后退按钮.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.IsBackEnabled">
+            <summary>
+            后退行为是否可用.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.IsPaneToggleButtonVisible">
+            <summary>
+            是否显示导航面板切换按钮.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.TemplateSettings">
+            <summary>
+            标题栏模板设置.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.BackIcon">
+            <summary>
+            后退按钮图标.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBar.TitleMaxWidth">
+            <summary>
+            标题最大宽度.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.AppTitleBarTemplateSettings">
+            <summary>
+            应用标题栏模板设置.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppTitleBarTemplateSettings.IconElementProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppTitleBarTemplateSettings.IconElement"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppTitleBarTemplateSettings.IconElement">
+            <summary>
+            标题栏图标.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.AppToggleCard">
+            <summary>
+            卡片切换按钮.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.AppToggleCard.IsEnableCheckProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.AppToggleCard.IsEnableCheck"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppToggleCard.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.AppToggleCard"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.AppToggleCard.IsEnableCheck">
+            <summary>
+            是否允许点击切换状态.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.AppToggleCard.OnToggle">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.ColumnSplitter">
+            <summary>
+            栏分割器.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.IsHideProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.IsHide"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.ColumnWidthProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.ColumnWidth"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.MinColumnWidthProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.MinColumnWidth"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.MaxColumnWidthProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.MaxColumnWidth"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.IsHideButtonEnabledProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.IsHideButtonEnabled"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.IsInvertDirectionProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.IsInvertDirection"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.HideTipProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.HideTip"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.ShowTipProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.ShowTip"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ColumnSplitter.AlwaysShowButtonWhenCollapsedProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ColumnSplitter.AlwaysShowButtonWhenCollapsed"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ColumnSplitter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.ColumnSplitter"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.IsHide">
+            <summary>
+            是否进入隐藏状态.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.ColumnWidth">
+            <summary>
+            列宽度.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.MinColumnWidth">
+            <summary>
+            最小列宽度.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.MaxColumnWidth">
+            <summary>
+            最大列宽度.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.IsHideButtonEnabled">
+            <summary>
+            是否显示隐藏按钮.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.IsInvertDirection">
+            <summary>
+            是否反转方向. 默认是左向右.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.ShowTip">
+            <summary>
+            处于显示状态时的提示.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.HideTip">
+            <summary>
+            处于隐藏状态时的提示.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ColumnSplitter.AlwaysShowButtonWhenCollapsed">
+            <summary>
+            在折叠时不隐藏按钮.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ColumnSplitter.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ColumnSplitter.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.EmptyHolder">
+            <summary>
+            占位符.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.EmptyHolder.TitleProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.EmptyHolder.Title"/>.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.EmptyHolder.DescriptionProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.EmptyHolder.Description"/>.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.EmptyHolder.EmojiProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.EmptyHolder.Emoji"/>.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.EmptyHolder.ActionElementProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.EmptyHolder.ActionElement"/>.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.EmptyHolder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.EmptyHolder"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.EmptyHolder.Title">
+            <summary>
+            Title.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.EmptyHolder.Description">
+            <summary>
+            Description.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.EmptyHolder.Emoji">
+            <summary>
+            Emoji.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.EmptyHolder.ActionElement">
+            <summary>
+            The element that performs the action.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.EmptyHolder.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.IconTextBlock">
+            <summary>
+            图标文本块.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.IconTextBlock.SymbolProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.IconTextBlock.Symbol"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.IconTextBlock.TextProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.IconTextBlock.Text"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.IconTextBlock.IconBrushProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.IconTextBlock.IconBrush"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.IconTextBlock.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.IconTextBlock"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.IconTextBlock.Symbol">
+            <summary>
+            图标.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.IconTextBlock.Text">
+            <summary>
+            文本.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.IconTextBlock.IconBrush">
+            <summary>
+            图标画刷.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.IconTextBlock.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.ImageExBase">
+            <summary>
+            图片扩展基类.
+            </summary>
+            <summary>
+            图片扩展基类.
+            </summary>
+            <summary>
+            图片扩展基类.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.ImageExBase"/> class.
+            </summary>
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.ImageExBase.ImageLoaded">
+            <summary>
+            图片已加载.
+            </summary>
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.ImageExBase.ImageFailed">
+            <summary>
+            图片加载失败.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.GetCenterCropRect(Windows.Foundation.Rect,Windows.Foundation.Rect)">
+            <summary>
+            获取中心裁切区域.
+            </summary>
+            <param name="targetRect">预计渲染区域.</param>
+            <param name="sourceRect">图片原始区域.</param>
+            <returns><see cref="T:Windows.Foundation.Rect"/>.</returns>
+            <remarks>
+            这里会根据预期渲染的大小和图片的宽高比计算出图片在控件中的渲染区域.
+            </remarks>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.DrawImage(Microsoft.Graphics.Canvas.CanvasBitmap)">
+            <summary>
+            绘制图片.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.UpdateHolderImage">
+            <summary>
+            更新占位符图片.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ImageExBase.OnControlUnloaded">
+            <inheritdoc/>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.SourceProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.Source"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.IsShimmerEnabledProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.IsShimmerEnabled"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.IsImageLoadingProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.IsImageLoading"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.DecodeWidthProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.DecodeWidth"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.DecodeHeightProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.DecodeHeight"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.ClearColorProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.ClearColor"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ImageExBase.HolderImageProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.ImageExBase.HolderImage"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.Source">
+            <summary>
+            图片源.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.IsShimmerEnabled">
+            <summary>
+            是否启用加载闪烁.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.DecodeWidth">
+            <summary>
+            解码宽度.
+            </summary>
+            <remarks>
+            控件会尝试以此宽度解码图片.
+            </remarks>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.DecodeHeight">
+            <summary>
+            解码高度.
+            </summary>
+            <remarks>
+            控件会尝试以此高度解码图片.
+            </remarks>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.IsImageLoading">
+            <summary>
+            图片是否正在加载.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.ClearColor">
+            <summary>
+            绘制画布的默认颜色.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.HolderImage">
+            <summary>
+            占位符图片.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ImageExBase.CanvasImageSource">
+            <summary>
+            图片源.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LayoutControlBase">
+            <summary>
+            用于布局的控件基类.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutControlBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.LayoutControlBase"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LayoutControlBase.ControlBindings">
+            <summary>
+            控件绑定集合.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutControlBase.OnControlLoaded">
+            <summary>
+            控件加载完成.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutControlBase.OnControlUnloaded">
+            <summary>
+            控件卸载完成.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LayoutControlBase`1">
+            <summary>
+            用于布局的控件基类.
+            </summary>
+            <typeparam name="TViewModel">视图模型类型.</typeparam>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.LayoutControlBase`1.ViewModelProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.LayoutControlBase`1.ViewModel"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LayoutControlBase`1.ViewModel">
+            <summary>
+            视图模型.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutControlBase`1.OnViewModelChanged(`0,`0)">
+            <summary>
+            当视图模型发生变化时.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LayoutPageBase">
+            <summary>
+            用于布局的页面基类.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutPageBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.LayoutPageBase"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LayoutPageBase.ControlBindings">
+            <summary>
+            控件绑定集合.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutPageBase.OnPageLoaded">
+            <summary>
+            控件加载完成.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutPageBase.OnPageUnloaded">
+            <summary>
+            控件卸载完成.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LayoutPageBase`1">
+            <summary>
+            用于布局的页面基类.
+            </summary>
+            <typeparam name="TViewModel">视图模型类型.</typeparam>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.LayoutPageBase`1.ViewModelProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.LayoutPageBase`1.ViewModel"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LayoutPageBase`1.ViewModel">
+            <summary>
+            视图模型.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutPageBase`1.OnViewModelChanged(`0,`0)">
+            <summary>
+            当视图模型发生变化时.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LayoutUserControlBase">
+            <summary>
+            用于布局的用户控件基类.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutUserControlBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.LayoutUserControlBase"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LayoutUserControlBase.ControlBindings">
+            <summary>
+            控件绑定集合.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutUserControlBase.OnControlLoaded">
+            <summary>
+            控件加载完成.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutUserControlBase.OnControlUnloaded">
+            <summary>
+            控件卸载完成.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LayoutUserControlBase`1">
+            <summary>
+            用于布局的用户控件基类.
+            </summary>
+            <typeparam name="TViewModel">视图模型类型.</typeparam>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.LayoutUserControlBase`1.ViewModelProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.LayoutUserControlBase`1.ViewModel"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LayoutUserControlBase`1.ViewModel">
+            <summary>
+            视图模型.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LayoutUserControlBase`1.OnViewModelChanged(`0,`0)">
+            <summary>
+            当视图模型发生变化时.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.ControlBindings">
+            <summary>
+            控件绑定.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.ControlBindings.#ctor(System.Action,System.Action)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.ControlBindings"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ControlBindings.Initialize">
+            <summary>
+            初始化.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.ControlBindings.StopTracking">
+            <summary>
+            停止跟踪.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.LoadingWidget">
+            <summary>
+            加载中控件.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.LoadingWidget.TextProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.LoadingWidget.Text"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LoadingWidget.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.LoadingWidget"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.LoadingWidget.Text">
+            <summary>
+            文本.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.LoadingWidget.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout">
+            <summary>
+            非虚拟化堆栈布局.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.OrientationProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.Orientation"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.SpacingProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.Spacing"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.Orientation">
+            <summary>
+            布局方向.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.Spacing">
+            <summary>
+            间距.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.MeasureOverride(Microsoft.UI.Xaml.Controls.NonVirtualizingLayoutContext,Windows.Foundation.Size)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.NonVirtualizingStackLayout.ArrangeOverride(Microsoft.UI.Xaml.Controls.NonVirtualizingLayoutContext,Windows.Foundation.Size)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.SettingsCard">
+            <summary>
+            This is the base control to create consistent settings experiences, inline with the Windows 11 design language.
+            A SettingsCard can also be hosted within a SettingsExpander.
+            </summary>
+            <summary>
+            Settings card.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.SettingsCard"/> class.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnApplyTemplate">
+            <inheritdoc />
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnPointerPressed(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnPointerReleased(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnCreateAutomationPeer">
+            <summary>
+            Creates AutomationPeer.
+            </summary>
+            <returns>An automation peer for <see cref="T:Richasy.WinUI.Share.Base.SettingsCard"/>.</returns>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.HeaderProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.Header"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.DescriptionProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.Description"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.HeaderIconProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.HeaderIcon"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.ActionIconProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.ActionIcon"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.ActionIconToolTipProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.ActionIconToolTip"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.IsClickEnabledProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.IsClickEnabled"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.ContentAlignmentProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.ContentAlignment"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsCard.IsActionIconVisibleProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.IsActionIconVisible"/> property.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.Header">
+            <summary>
+            Gets or sets the Header.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.HeaderIcon">
+            <summary>
+            Gets or sets the icon on the left.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.ActionIcon">
+            <summary>
+            Gets or sets the icon that is shown when IsClickEnabled is set to true.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.ActionIconToolTip">
+            <summary>
+            Gets or sets the tooltip of the ActionIcon.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.IsClickEnabled">
+            <summary>
+            Gets or sets if the card can be clicked.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.ContentAlignment">
+            <summary>
+            Gets or sets the alignment of the Content.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsCard.IsActionIconVisible">
+            <summary>
+            Gets or sets if the ActionIcon is shown.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnIsClickEnabledPropertyChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Called when the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.IsClickEnabled"/> property changes.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnHeaderIconPropertyChanged(Microsoft.UI.Xaml.Controls.IconElement,Microsoft.UI.Xaml.Controls.IconElement)">
+            <summary>
+            Called when the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.HeaderIcon"/> property changes.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnHeaderPropertyChanged(System.Object,System.Object)">
+            <summary>
+            Called when the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.Header"/> property changes.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnDescriptionPropertyChanged(System.Object,System.Object)">
+            <summary>
+            Called when the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.Description"/> property changes.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCard.OnIsActionIconVisiblePropertyChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Called when the <see cref="P:Richasy.WinUI.Share.Base.SettingsCard.IsActionIconVisible"/> property changes.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.ContentAlignment">
+            <summary>
+            The alignment of the Content.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ContentAlignment.Right">
+            <summary>
+            The Content is aligned to the right. Default state.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ContentAlignment.Left">
+            <summary>
+            The Content is left-aligned while the Header, HeaderIcon and Description are collapsed. This is commonly used for Content types such as CheckBoxes, RadioButtons and custom layouts.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.ContentAlignment.Vertical">
+            <summary>
+            The Content is vertically aligned.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.SettingsCardAutomationPeer">
+            <summary>
+            AutomationPeer for SettingsCard.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCardAutomationPeer.#ctor(Richasy.WinUI.Share.Base.SettingsCard)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.SettingsCard"/> class.
+            </summary>
+            <param name="owner">SettingsCard.</param>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCardAutomationPeer.GetAutomationControlTypeCore">
+            <summary>
+            Gets the control type for the element that is associated with the UI Automation peer.
+            </summary>
+            <returns>The control type.</returns>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCardAutomationPeer.GetClassNameCore">
+            <summary>
+            Called by GetClassName that gets a human readable name that, in addition to AutomationControlType,
+            differentiates the control represented by this AutomationPeer.
+            </summary>
+            <returns>The string that contains the name.</returns>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsCardAutomationPeer.GetNameCore">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.StyleExtensions.CopyFrom(Microsoft.UI.Xaml.ResourceDictionary,Microsoft.UI.Xaml.ResourceDictionary)">
+            <summary>
+            Copies  the <see cref="T:Microsoft.UI.Xaml.ResourceDictionary"/> provided as a parameter into the calling dictionary, includes overwriting the source location, theme dictionaries, and merged dictionaries.
+            </summary>
+            <param name="destination">ResourceDictionary to copy values to.</param>
+            <param name="source">ResourceDictionary to copy values from.</param>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.SettingsExpander">
+            <summary>
+            Settings expander.
+            </summary>
+            <summary>
+            Settings expander.
+            </summary>
+            <summary>
+            Settings expander.
+            </summary>
+            <summary>
+            Settings expander.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpander.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.SettingsExpander"/> class.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpander.OnApplyTemplate">
+            <inheritdoc />
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.SettingsExpander.Expanded">
+            <summary>
+            Fires when the SettingsExpander is opened
+            </summary>
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.SettingsExpander.Collapsed">
+            <summary>
+            Fires when the expander is closed
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ItemsProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.Items"/>.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ItemsSourceProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemsSource"/>.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ItemTemplateProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemTemplate"/>.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ItemContainerStyleSelectorProperty">
+            <summary>
+            Dependency property of <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemContainerStyleSelector"/>.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.Items">
+            <summary>
+            Gets or sets the items to display in the expander.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemsSource">
+            <summary>
+            Gets or sets the items source to display in the expander.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemTemplate">
+            <summary>
+            Gets or sets the item template.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemContainerStyleSelector">
+            <summary>
+            Gets or sets the item container style selector.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.HeaderProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.Header"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.DescriptionProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.Description"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.HeaderIconProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.HeaderIcon"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ContentProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.Content"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ItemsHeaderProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.Content"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.ItemsFooterProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.Content"/> property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SettingsExpander.IsExpandedProperty">
+            <summary>
+            The backing <see cref="T:Microsoft.UI.Xaml.DependencyProperty"/> for the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.IsExpanded"/> property.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.Header">
+            <summary>
+            Gets or sets the Header.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.Description">
+            <summary>
+            Gets or sets the Description.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.HeaderIcon">
+            <summary>
+            Gets or sets the HeaderIcon.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.Content">
+            <summary>
+            Gets or sets the Content.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemsHeader">
+            <summary>
+            Gets or sets the ItemsFooter.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.ItemsFooter">
+            <summary>
+            Gets or sets the ItemsFooter.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpander.IsExpanded">
+            <summary>
+            Gets or sets the IsExpanded state.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpander.OnIsExpandedPropertyChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Occurs when the <see cref="P:Richasy.WinUI.Share.Base.SettingsExpander.IsExpanded"/> property changes.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.SettingsExpanderAutomationPeer">
+            <summary>
+            AutomationPeer for SettingsExpander.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderAutomationPeer.#ctor(Richasy.WinUI.Share.Base.SettingsExpander)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.SettingsExpander"/> class.
+            </summary>
+            <param name="owner">SettingsExpander.</param>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderAutomationPeer.RaiseExpandedChangedEvent(System.Boolean)">
+            <summary>
+            Raises the property changed event for this AutomationPeer for the provided identifier.
+            Narrator does not announce this due to: https://github.com/microsoft/microsoft-ui-xaml/issues/3469.
+            </summary>
+            <param name="newValue">New Expanded state.</param>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderAutomationPeer.GetAutomationControlTypeCore">
+            <summary>
+            Gets the control type for the element that is associated with the UI Automation peer.
+            </summary>
+            <returns>The control type.</returns>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderAutomationPeer.GetClassNameCore">
+            <summary>
+            Called by GetClassName that gets a human readable name that, in addition to AutomationControlType,
+            differentiates the control represented by this AutomationPeer.
+            </summary>
+            <returns>The string that contains the name.</returns>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderAutomationPeer.GetNameCore">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.SettingsExpanderItemStyleSelector">
+            <summary>
+            <see cref="T:Microsoft.UI.Xaml.Controls.StyleSelector"/> used by <see cref="T:Richasy.WinUI.Share.Base.SettingsExpander"/> to choose the proper <see cref="T:Richasy.WinUI.Share.Base.SettingsCard"/> container style (clickable or not).
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderItemStyleSelector.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.SettingsExpanderItemStyleSelector"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpanderItemStyleSelector.DefaultStyle">
+            <summary>
+            Gets or sets the default <see cref="T:Microsoft.UI.Xaml.Style"/>.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SettingsExpanderItemStyleSelector.ClickableStyle">
+            <summary>
+            Gets or sets the <see cref="T:Microsoft.UI.Xaml.Style"/> when clickable.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SettingsExpanderItemStyleSelector.SelectStyleCore(System.Object,Microsoft.UI.Xaml.DependencyObject)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.Shimmer">
+            <summary>
+            闪烁效果.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.Shimmer.DurationProperty">
+            <summary>
+            Identifies the <see cref="P:Richasy.WinUI.Share.Base.Shimmer.Duration"/> dependency property.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.Shimmer.IsActiveProperty">
+            <summary>
+            Identifies the <see cref="P:Richasy.WinUI.Share.Base.Shimmer.IsActive"/> dependency property.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.Shimmer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.Shimmer"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.Shimmer.Duration">
+            <summary>
+            Gets or sets the animation duration.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.Shimmer.IsActive">
+            <summary>
+            Gets or sets if the animation is playing.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.Shimmer.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.Shimmer.OnControlUnloaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.Shimmer.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.SideSplitButton">
+            <summary>
+            侧边分割按钮.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SideSplitButton.IsHideProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.SideSplitButton.IsHide"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.SideSplitButton.IsInvertDirectionProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.SideSplitButton.IsInvertDirection"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SideSplitButton.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.SideSplitButton"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SideSplitButton.IsHide">
+            <summary>
+            是否进入隐藏状态.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.SideSplitButton.IsInvertDirection">
+            <summary>
+            是否反转方向. 默认是左向右.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SideSplitButton.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.SideSplitButton.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.StatusTip">
+            <summary>
+            状态提示.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.StatusTip.TextProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.StatusTip.Text"/>的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.StatusTip.StatusProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.StatusTip.Status"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.StatusTip.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.StatusTip"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.StatusTip.Status">
+            <summary>
+            当前状态.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.StatusTip.Text">
+            <summary>
+            显示文本.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.StatusTip.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.StatusTip.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.InfoType">
+            <summary>
+            信息类型.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.InfoType.Information">
+            <summary>
+            普通消息.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.InfoType.Error">
+            <summary>
+            错误消息.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.InfoType.Warning">
+            <summary>
+            警告消息.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.InfoType.Success">
+            <summary>
+            成功消息.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.InfoType.Loading">
+            <summary>
+            加载中.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.TipPopup">
+            <summary>
+            消息提醒.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.TipPopup.TextProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.TipPopup.Text"/>的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.TipPopup.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.TipPopup"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.TipPopup.Text">
+            <summary>
+            显示文本.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.TipPopup.ShowAsync(Richasy.WinUI.Share.Base.InfoType)">
+            <summary>
+            显示内容.
+            </summary>
+            <param name="type">信息级别.</param>
+            <returns><see cref="T:System.Threading.Tasks.Task"/>.</returns>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.TipPopup.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.TrimTextBlock">
+            <summary>
+            文本块，超出部分省略，并提供工具提示.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.TrimTextBlock.TextProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.TrimTextBlock.Text"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.TrimTextBlock.MaxLinesProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.TrimTextBlock.MaxLines"/> 的依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.TrimTextBlock.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.TrimTextBlock"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.TrimTextBlock.Text">
+            <summary>
+            文本.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.TrimTextBlock.MaxLines">
+            <summary>
+            最大行数.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.TrimTextBlock.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.VisibilityToggleButton">
+            <summary>
+            可见性切换按钮.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.VisibilityToggleButton.DirectionProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.Direction"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.VisibilityToggleButton.IsHideProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.IsHide"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.VisibilityToggleButton.AlwaysShowWhenCollapsedProperty">
+            <summary>
+            <see cref="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.AlwaysShowWhenCollapsed"/> 依赖属性.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.VisibilityToggleButton"/> class.
+            </summary>
+        </member>
+        <member name="E:Richasy.WinUI.Share.Base.VisibilityToggleButton.Click">
+            <summary>
+            点击事件.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.Direction">
+            <summary>
+            获取或设置方向.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.IsHide">
+            <summary>
+            是否已经隐藏指定目标.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.AlwaysShowWhenCollapsed">
+            <summary>
+            在折叠时不隐藏按钮.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.ShowTip">
+            <summary>
+            处于显示状态时的提示.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Base.VisibilityToggleButton.HideTip">
+            <summary>
+            处于隐藏状态时的提示.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.OnPointerEntered(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.OnPointerMoved(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.OnPointerExited(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.OnPointerCanceled(Microsoft.UI.Xaml.Input.PointerRoutedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.OnControlLoaded">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.VisibilityToggleButton.InitializeComponent">
+            <summary>
+            InitializeComponent()
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.VisibilityToggleButtonDirection">
+            <summary>
+            可见性切换按钮方向.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.VisibilityToggleButtonDirection.LeftToRightVisible">
+            <summary>
+            需要控制的内容在左侧.
+            </summary>
+        </member>
+        <member name="F:Richasy.WinUI.Share.Base.VisibilityToggleButtonDirection.RightToLeftVisible">
+            <summary>
+            需要控制的内容在右侧.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Base.WindowBase">
+            <summary>
+            窗口基类.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Base.WindowBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Base.WindowBase"/> class.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Converters.BoolToIconVariantConverter">
+            <summary>
+            图标变体转换器.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.BoolToIconVariantConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.BoolToIconVariantConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Converters.BoolToVisibilityConverter">
+            <summary>
+            <see cref="T:System.Boolean"/> to <see cref="T:Microsoft.UI.Xaml.Visibility"/>.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Converters.BoolToVisibilityConverter.IsReverse">
+            <summary>
+            Whether to invert the value.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.BoolToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.BoolToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Converters.ObjectToBoolConverter">
+            <summary>
+            Object to Boolean converter.
+            </summary>
+            <remarks>
+            Returns <c>True</c> when the object is not empty.
+            </remarks>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Converters.ObjectToBoolConverter.IsReverse">
+            <summary>
+            Whether to invert the result.
+            </summary>
+            <remarks>
+            After inversion, return <c>True</c> when the string is empty, otherwise return <c>False</c>.
+            </remarks>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.ObjectToBoolConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.ObjectToBoolConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Converters.ObjectToVisibilityConverter">
+            <summary>
+            Object to visibility converter. Returns Collapsed when the object is empty.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Converters.ObjectToVisibilityConverter.IsReverse">
+            <summary>
+            Whether to invert the result.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.ObjectToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Converters.ObjectToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Effects.BlurCanvasEffect">
+            <summary>
+            图像表面模糊的效果.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.Source">
+            <summary>
+            图像源.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.BlurAmount">
+            <summary>
+            模糊强度.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.TintColor">
+            <summary>
+            模糊表面颜色.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.CrossfadeVerticalOffset">
+            <summary>
+            交错偏移.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.CrossfadeVerticalLength">
+            <summary>
+            交错长度.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.SourceRectangle">
+            <summary>
+            源矩形.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.BlurCanvasEffect.DestinationRectangle">
+            <summary>
+            目标矩形.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.BlurCanvasEffect.BuildEffectGraph(ComputeSharp.D2D1.WinUI.CanvasEffectGraph)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.BlurCanvasEffect.ConfigureEffectGraph(ComputeSharp.D2D1.WinUI.CanvasEffectGraph)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Effects.NoiseShader">
+            <summary>
+            噪声着色器.
+            </summary>
+            <inheritdoc cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.NoiseShader.#ctor(System.Single)">
+            <summary>
+            噪声着色器.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.NoiseShader.Execute">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#EffectId">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#EffectDisplayName">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#EffectDescription">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#EffectCategory">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#EffectAuthor">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#ConstantBufferSize">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#InputCount">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#ResourceTextureCount">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#InputTypes">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#InputDescriptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#ResourceTextureDescriptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#PixelOptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#BufferPrecision">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#ChannelDepth">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#ShaderProfile">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#CompileOptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#HlslSource">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#HlslBytecode">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#CreateFromConstantBuffer(System.ReadOnlySpan{System.Byte})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.NoiseShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#NoiseShader}#LoadConstantBuffer``1(Richasy.WinUI.Share.Effects.NoiseShader@,``0@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.Effects.CrossFadeShader">
+            <summary>
+            交错着色器.
+            </summary>
+            <inheritdoc cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.CrossFadeShader.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> struct.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.CrossFadeShader.Execute">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#EffectId">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#EffectDisplayName">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#EffectDescription">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#EffectCategory">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#EffectAuthor">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#ConstantBufferSize">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#InputCount">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#ResourceTextureCount">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#InputTypes">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#InputDescriptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#ResourceTextureDescriptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#PixelOptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#BufferPrecision">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#ChannelDepth">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#ShaderProfile">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#CompileOptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#HlslSource">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#HlslBytecode">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#CreateFromConstantBuffer(System.ReadOnlySpan{System.Byte})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.Effects.CrossFadeShader.ComputeSharp#D2D1#Descriptors#ID2D1PixelShaderDescriptor{Richasy#WinUI#Share#Effects#CrossFadeShader}#LoadConstantBuffer``1(Richasy.WinUI.Share.Effects.CrossFadeShader@,``0@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel">
+            <summary>
+            应用导航视图项视图模型.
+            </summary>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.#ctor(Richasy.WinUI.Share.ViewModels.INavServiceViewModel,System.Type,System.String,System.Nullable{FluentIcons.Common.Symbol},System.Boolean,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel"/> class.
+            </summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.PageKey">
+            <summary>
+            页面标识.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.ShowUnread">
+            <inheritdoc cref="F:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel._showUnread"/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.Symbol">
+            <inheritdoc cref="F:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel._symbol"/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.IsSelected">
+            <inheritdoc cref="F:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel._isSelected"/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.Title">
+            <inheritdoc cref="F:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel._title"/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.AccessKey">
+            <inheritdoc cref="F:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel._accessKey"/>
+        </member>
+        <member name="F:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.navigateCommand">
+            <summary>The backing field for <see cref="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.NavigateCommand"/>.</summary>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.NavigateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Richasy.WinUI.Share.ViewModels.AppNavigationItemViewModel.Navigate(System.Object)"/>.</summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.ViewModels.INavServiceViewModel">
+            <summary>
+            导航服务视图模型.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.INavServiceViewModel.NavigateTo(System.Type,System.Object)">
+            <summary>
+            导航到指定页面.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.INavServiceViewModel.NavigateToOver(System.Type,System.Object)">
+            <summary>
+            导航到覆盖页面.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.ViewModels.ViewModelBase">
+            <summary>
+            视图模型基类.
+            </summary>
+        </member>
+        <member name="T:Richasy.WinUI.Share.ViewModels.ViewModelBase`1">
+            <summary>
+            数据视图模型基类.
+            </summary>
+            <typeparam name="TData">数据类型.</typeparam>
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.ViewModelBase`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Richasy.WinUI.Share.ViewModels.ViewModelBase`1"/> class.
+            </summary>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.ViewModelBase`1.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Richasy.WinUI.Share.ViewModels.ViewModelBase`1.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="P:Richasy.WinUI.Share.ViewModels.ViewModelBase`1.Data">
+            <inheritdoc cref="F:Richasy.WinUI.Share.ViewModels.ViewModelBase`1._data"/>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ShowUnread">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ShowUnread" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Symbol">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Symbol" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AccessKey">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AccessKey" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Data">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Data" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ShowUnread">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ShowUnread" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Symbol">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Symbol" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AccessKey">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AccessKey" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Data">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Data" generated properties.</summary>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.ConstantBuffer">
+            <summary>
+            A type representing the constant buffer native layout for <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/>.
+            </summary>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.ConstantBuffer.amount">
+            <summary>The unspeakable field "amount" of <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/>.</summary>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller">
+            <summary>
+            A type containing marshalling logic for the constant buffer in shaders of type <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/>.
+            </summary>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller.FromManaged(Richasy.WinUI.Share.Effects.NoiseShader@,ComputeSharp.D2D1.Generated.ConstantBuffer@)">
+            <summary>
+            Marshals managed <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/> instances to native constant buffer data.
+            </summary>
+            <param name="buffer">The input native constant buffer.</param>
+            <returns>The marshalled <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/> instance.</returns>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller.ToManaged(ComputeSharp.D2D1.Generated.ConstantBuffer@)">
+            <summary>
+            Marshals native constant buffer data to managed <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/> instances.
+            </summary>
+            <param name="buffer">The input native constant buffer.</param>
+            <returns>The marshalled <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/> instance.</returns>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller.amount(Richasy.WinUI.Share.Effects.NoiseShader@)">
+            <summary>Gets a reference to the unspeakable field "amount" of type <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/>.</summary>
+            <param name="value">The input <see cref="T:Richasy.WinUI.Share.Effects.NoiseShader"/> value.</param>
+            <returns>A mutable reference to the unspeakable field "amount".</returns>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager">
+            <summary>
+            <see cref="T:System.Buffers.MemoryManager`1"/> implementation to get the HLSL bytecode.
+            </summary>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Instance">
+            <summary>The singleton <see cref="T:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager"/> instance to use.</summary>
+        </member>
+        <member name="P:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Data">
+            <summary>The RVA data with the HLSL bytecode.</summary>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.GetSpan">
+            <inheritdoc/>
+        </member>
+        <member name="P:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Memory">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Pin(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Unpin">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.ConstantBuffer">
+            <summary>
+            A type representing the constant buffer native layout for <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/>.
+            </summary>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.ConstantBuffer._offsetStartY">
+            <inheritdoc cref="F:Richasy.WinUI.Share.Effects.CrossFadeShader._offsetStartY"/>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.ConstantBuffer._offsetLengthY">
+            <inheritdoc cref="F:Richasy.WinUI.Share.Effects.CrossFadeShader._offsetLengthY"/>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller">
+            <summary>
+            A type containing marshalling logic for the constant buffer in shaders of type <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/>.
+            </summary>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller.FromManaged(Richasy.WinUI.Share.Effects.CrossFadeShader@,ComputeSharp.D2D1.Generated.ConstantBuffer@)">
+            <summary>
+            Marshals managed <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> instances to native constant buffer data.
+            </summary>
+            <param name="buffer">The input native constant buffer.</param>
+            <returns>The marshalled <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> instance.</returns>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller.ToManaged(ComputeSharp.D2D1.Generated.ConstantBuffer@)">
+            <summary>
+            Marshals native constant buffer data to managed <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> instances.
+            </summary>
+            <param name="buffer">The input native constant buffer.</param>
+            <returns>The marshalled <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> instance.</returns>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller._offsetStartY(Richasy.WinUI.Share.Effects.CrossFadeShader@)">
+            <inheritdoc cref="F:Richasy.WinUI.Share.Effects.CrossFadeShader._offsetStartY"/>
+            <param name="value">The input <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> value.</param>
+            <returns>A mutable reference to <see cref="F:Richasy.WinUI.Share.Effects.CrossFadeShader._offsetStartY"/>.</returns>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.ConstantBufferMarshaller._offsetLengthY(Richasy.WinUI.Share.Effects.CrossFadeShader@)">
+            <inheritdoc cref="F:Richasy.WinUI.Share.Effects.CrossFadeShader._offsetLengthY"/>
+            <param name="value">The input <see cref="T:Richasy.WinUI.Share.Effects.CrossFadeShader"/> value.</param>
+            <returns>A mutable reference to <see cref="F:Richasy.WinUI.Share.Effects.CrossFadeShader._offsetLengthY"/>.</returns>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.Data">
+            <summary>
+            A container type for additional data needed by the shader.
+            </summary>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.Data.InputDescriptions">
+            <summary>The singleton <see cref="T:ComputeSharp.D2D1.Interop.D2D1InputDescription"/> array instance.</summary>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.InputTypesMemoryManager">
+            <summary>
+            A <see cref="T:System.Buffers.MemoryManager`1"/> implementation to get the input types.
+            </summary>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.Instance">
+            <summary>The singleton <see cref="T:ComputeSharp.D2D1.Generated.InputTypesMemoryManager"/> instance to use.</summary>
+        </member>
+        <member name="P:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.Data">
+            <summary>The RVA data with the input type info.</summary>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.GetSpan">
+            <inheritdoc/>
+        </member>
+        <member name="P:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.Memory">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.Pin(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.Unpin">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.InputTypesMemoryManager.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager">
+            <summary>
+            <see cref="T:System.Buffers.MemoryManager`1"/> implementation to get the HLSL bytecode.
+            </summary>
+        </member>
+        <member name="F:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Instance">
+            <summary>The singleton <see cref="T:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager"/> instance to use.</summary>
+        </member>
+        <member name="P:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Data">
+            <summary>The RVA data with the HLSL bytecode.</summary>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.GetSpan">
+            <inheritdoc/>
+        </member>
+        <member name="P:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Memory">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Pin(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Unpin">
+            <inheritdoc/>
+        </member>
+        <member name="M:ComputeSharp.D2D1.Generated.HlslBytecodeMemoryManager.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

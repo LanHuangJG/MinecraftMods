@@ -1,0 +1,576 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\15970\\source\\repos\\MinecraftMods\\MinecraftMods\\MinecraftMods.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\15970\\source\\repos\\MinecraftMods\\MinecraftMods\\MinecraftMods.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\MinecraftMods\\MinecraftMods.csproj",
+        "projectName": "MinecraftMods",
+        "projectPath": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\MinecraftMods\\MinecraftMods.csproj",
+        "packagesPath": "C:\\Users\\15970\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\MinecraftMods\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\15970\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.22621"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-Labs/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.22621": {
+            "targetAlias": "net8.0-windows10.0.22621",
+            "projectReferences": {
+              "C:\\Users\\15970\\source\\repos\\MinecraftMods\\WinUI.Share\\src\\Richasy.WinUI.Share.csproj": {
+                "projectPath": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\WinUI.Share\\src\\Richasy.WinUI.Share.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.22621": {
+          "targetAlias": "net8.0-windows10.0.22621",
+          "dependencies": {
+            "CommunityToolkit.Labs.WinUI.Controls.MarkdownTextBlock": {
+              "target": "Package",
+              "version": "[0.1.241129-build.1830, )"
+            },
+            "CommunityToolkit.Labs.WinUI.TitleBar": {
+              "target": "Package",
+              "version": "[0.0.1-build.1830, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0-preview3, )"
+            },
+            "CommunityToolkit.WinUI.Animations": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )"
+            },
+            "CommunityToolkit.WinUI.Extensions": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )"
+            },
+            "DevWinUI": {
+              "target": "Package",
+              "version": "[8.0.0-Preview2, )"
+            },
+            "DevWinUI.Controls": {
+              "target": "Package",
+              "version": "[8.0.0-Preview2, )"
+            },
+            "FluentIcons.WinUI": {
+              "target": "Package",
+              "version": "[1.1.266, )"
+            },
+            "ImageEx": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Windows.SDK.BuildTools": {
+              "target": "Package",
+              "version": "[10.0.26100.1742, )"
+            },
+            "Microsoft.WindowsAppSDK": {
+              "target": "Package",
+              "version": "[1.7.241114004-experimental1, )"
+            },
+            "WinUIEx": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22621.54, 10.0.22621.54]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\15970\\source\\repos\\MinecraftMods\\WinUI.Share\\src\\Richasy.WinUI.Share.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\WinUI.Share\\src\\Richasy.WinUI.Share.csproj",
+        "projectName": "Richasy.WinUI.Share",
+        "projectPath": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\WinUI.Share\\src\\Richasy.WinUI.Share.csproj",
+        "packagesPath": "C:\\Users\\15970\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\15970\\source\\repos\\MinecraftMods\\WinUI.Share\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\15970\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.22621.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-Labs/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.22621": {
+            "targetAlias": "net8.0-windows10.0.22621.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1008",
+            "NU1507",
+            "NU1701",
+            "NU1900"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.22621": {
+          "targetAlias": "net8.0-windows10.0.22621.0",
+          "dependencies": {
+            "CommunityToolkit.HighPerformance": {
+              "target": "Package",
+              "version": "[8.4.0-preview2, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0-preview2, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.WinUI.Animations": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.WinUI.Controls.Sizers": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.WinUI.Extensions": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.WinUI.Media": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.WinUI.Triggers": {
+              "target": "Package",
+              "version": "[8.2.241112-preview1, )",
+              "versionCentrallyManaged": true
+            },
+            "ComputeSharp.D2D1": {
+              "target": "Package",
+              "version": "[3.1.0-alpha.10821677520, )",
+              "versionCentrallyManaged": true
+            },
+            "ComputeSharp.D2D1.WinUI": {
+              "target": "Package",
+              "version": "[3.1.0-alpha.10821677520, )",
+              "versionCentrallyManaged": true
+            },
+            "FluentIcons.WinUI": {
+              "target": "Package",
+              "version": "[1.1.265, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.CSharp.CodeStyle": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.Metrics": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.24225.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Graphics.Win2D": {
+              "target": "Package",
+              "version": "[1.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.VisualStudio.Threading.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.12.19, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Windows.CsWinRT": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Windows.SDK.BuildTools": {
+              "target": "Package",
+              "version": "[10.0.22621.3233, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.WindowsAppSDK": {
+              "target": "Package",
+              "version": "[1.6.241114003, )",
+              "versionCentrallyManaged": true
+            },
+            "Moq.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.11.0, 4.11.0]",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.0, 4.12.0]",
+              "versionCentrallyManaged": true
+            },
+            "Roslynator.Formatting.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.12.0, 4.12.0]",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )",
+              "versionCentrallyManaged": true
+            },
+            "WinUIEx": {
+              "target": "Package",
+              "version": "[2.4.2, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit.analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.14.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "CommunityToolkit.HighPerformance": "8.4.0-preview2",
+            "CommunityToolkit.Mvvm": "8.4.0-preview2",
+            "CommunityToolkit.WinUI.Animations": "8.2.241112-preview1",
+            "CommunityToolkit.WinUI.Controls.Sizers": "8.2.241112-preview1",
+            "CommunityToolkit.WinUI.Extensions": "8.2.241112-preview1",
+            "CommunityToolkit.WinUI.Helpers": "8.1.240916",
+            "CommunityToolkit.WinUI.Media": "8.2.241112-preview1",
+            "CommunityToolkit.WinUI.Triggers": "8.2.241112-preview1",
+            "ComputeSharp.D2D1": "3.1.0-alpha.10821677520",
+            "ComputeSharp.D2D1.WinUI": "3.1.0-alpha.10821677520",
+            "coverlet.collector": "6.0.2",
+            "FluentIcons.WinUI": "1.1.265",
+            "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+            "Microsoft.Bcl.HashCode": "1.1.1",
+            "Microsoft.Bcl.Numerics": "8.0.0",
+            "Microsoft.Bcl.TimeProvider": "8.0.1",
+            "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+            "Microsoft.CodeAnalysis.Common": "4.10.0",
+            "Microsoft.CodeAnalysis.CSharp": "4.3.0",
+            "Microsoft.CodeAnalysis.CSharp.CodeStyle": "4.4.0",
+            "Microsoft.CodeAnalysis.Metrics": "3.3.4",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "9.0.0-preview.24225.1",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Configuration.Binder": "8.0.1",
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
+            "Microsoft.Extensions.Configuration.Json": "8.0.0",
+            "Microsoft.Extensions.Configuration.UserSecrets": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection": "8.0.0",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+            "Microsoft.Extensions.Hosting": "8.0.0",
+            "Microsoft.Extensions.Http": "8.0.0",
+            "Microsoft.Extensions.Http.Resilience": "8.2.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
+            "Microsoft.Extensions.Logging.Console": "8.0.0",
+            "Microsoft.Extensions.Logging.Debug": "8.0.0",
+            "Microsoft.Extensions.Options.DataAnnotations": "8.0.0",
+            "Microsoft.Extensions.TimeProvider.Testing": "8.5.0",
+            "Microsoft.Graphics.Win2D": "1.3.0",
+            "Microsoft.NET.Test.Sdk": "17.10.0",
+            "Microsoft.SourceLink.GitHub": "8.0.0",
+            "Microsoft.VisualStudio.Threading.Analyzers": "17.12.19",
+            "Microsoft.Windows.CsWinRT": "2.2.0",
+            "Microsoft.Windows.SDK.BuildTools": "10.0.22621.3233",
+            "Microsoft.WindowsAppSDK": "1.6.241114003",
+            "Moq": "[4.18.4]",
+            "Moq.Analyzers": "0.1.0",
+            "Roslynator.Analyzers": "[4.11.0]",
+            "Roslynator.CodeAnalysis.Analyzers": "[4.12.0]",
+            "Roslynator.Formatting.Analyzers": "[4.12.0]",
+            "StyleCop.Analyzers": "1.1.118",
+            "System.Diagnostics.DiagnosticSource": "8.0.1",
+            "System.Linq.Async": "6.0.1",
+            "System.Memory.Data": "8.0.0",
+            "System.Numerics.Tensors": "8.0.0",
+            "System.Text.Json": "8.0.4",
+            "System.Threading.Channels": "8.0.0",
+            "System.Threading.Tasks.Dataflow": "8.0.0",
+            "System.Threading.Tasks.Extensions": "4.5.4",
+            "System.ValueTuple": "4.5.0",
+            "Verify.Xunit": "23.5.2",
+            "WinUIEx": "2.4.2",
+            "xretry": "1.9.0",
+            "xunit": "2.7.0",
+            "xunit.abstractions": "2.0.3",
+            "xunit.analyzers": "1.14.0",
+            "xunit.runner.visualstudio": "2.5.7"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22621.38, 10.0.22621.38]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

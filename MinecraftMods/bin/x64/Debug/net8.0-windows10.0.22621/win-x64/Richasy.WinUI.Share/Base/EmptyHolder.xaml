@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<local:LayoutUserControlBase x:ConnectionId='1'
+    x:Class="Richasy.WinUI.Share.Base.EmptyHolder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:Richasy.WinUI.Share.Base"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel
+        Padding="20"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Background="{ThemeResource SolidBackgroundFillColorBaseBrush}"
+        CornerRadius="{ThemeResource OverlayCornerRadius}">
+        <FontIcon x:ConnectionId='2'
+            Margin="0,0,0,12"
+            HorizontalAlignment="Center"
+            FontFamily="Segoe UI Emoji"
+            FontSize="40"
+                                               
+                                                                                                             />
+        <TextBlock x:ConnectionId='3'
+            Margin="0,0,0,8"
+            HorizontalAlignment="Center"
+            Style="{StaticResource BodyStrongTextBlockStyle}"
+                                              
+            TextAlignment="Center"
+                                                                                                             />
+        <TextBlock x:ConnectionId='4'
+            MaxWidth="164"
+            HorizontalAlignment="Center"
+            Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+            LineHeight="20"
+            MaxLines="5"
+            Style="{StaticResource CaptionTextBlockStyle}"
+                                                    
+            TextAlignment="Center"
+                                                                                                                   />
+        <ContentPresenter x:ConnectionId='5'
+            Margin="0,8,0,0"
+            HorizontalAlignment="Center"
+                                                         
+                                                                                                                     />
+    </StackPanel>
+</local:LayoutUserControlBase>
+

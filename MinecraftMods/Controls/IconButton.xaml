@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UserControl
+	x:Class="MinecraftMods.Controls.IconButton"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:ic="using:FluentIcons.WinUI"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="using:MinecraftMods.Controls"
+	mc:Ignorable="d">
+	<Button Command="{x:Bind Command}">
+		<StackPanel Spacing="8" Orientation="Horizontal">
+			<ic:SymbolIcon Symbol="{x:Bind Icon}" />
+			<TextBlock Text="{x:Bind Text}" />
+		</StackPanel>
+	</Button>
+</UserControl>

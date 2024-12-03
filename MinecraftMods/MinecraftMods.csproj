@@ -1,0 +1,94 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows10.0.22621</TargetFramework>
+		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+		<RootNamespace>MinecraftMods</RootNamespace>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<Platforms>x86;x64;ARM64</Platforms>
+		<RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
+		<PublishProfile>win-$(Platform).pubxml</PublishProfile>
+		<UseWinUI>true</UseWinUI>
+		<EnableMsixTooling>true</EnableMsixTooling>
+		<Nullable>enable</Nullable>
+		<WindowsPackageType>None</WindowsPackageType>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="Controls\IconButton.xaml" />
+	  <None Remove="Styles\Overrides.xaml" />
+	  <None Remove="TestWindow.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Assets\SplashScreen.scale-200.png" />
+		<Content Include="Assets\LockScreenLogo.scale-200.png" />
+		<Content Include="Assets\Square150x150Logo.scale-200.png" />
+		<Content Include="Assets\Square44x44Logo.scale-200.png" />
+		<Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+		<Content Include="Assets\StoreLogo.png" />
+		<Content Include="Assets\Wide310x150Logo.scale-200.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Manifest Include="$(ApplicationManifest)" />
+	</ItemGroup>
+
+	<!--
+    Defining the "Msix" ProjectCapability here allows the Single-project MSIX Packaging
+    Tools extension to be activated for this project even if the Windows App SDK Nuget
+    package has not yet been restored.
+  -->
+	<ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
+		<ProjectCapability Include="Msix" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Labs.WinUI.Controls.MarkdownTextBlock" Version="0.1.241129-build.1830" />
+		<PackageReference Include="CommunityToolkit.Labs.WinUI.TitleBar" Version="0.0.1-build.1830" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0-preview3" />
+		<PackageReference Include="CommunityToolkit.WinUI.Animations" Version="8.2.241112-preview1" />
+		<PackageReference Include="CommunityToolkit.WinUI.Extensions" Version="8.2.241112-preview1" />
+		<PackageReference Include="DevWinUI" Version="8.0.0-Preview2" />
+		<PackageReference Include="DevWinUI.Controls" Version="8.0.0-Preview2" />
+		<PackageReference Include="FluentIcons.WinUI" Version="1.1.266" />
+		<PackageReference Include="ImageEx" Version="3.1.0" />
+		<PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.1742" />
+		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.241114004-experimental1" />
+		<PackageReference Include="WinUIEx" Version="2.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\WinUI.Share\src\Richasy.WinUI.Share.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Page Update="TestWindow.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </Page>
+	</ItemGroup>
+	<ItemGroup>
+	  <Page Update="Controls\IconButton.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </Page>
+	</ItemGroup>
+	<ItemGroup>
+	  <Page Update="Styles\Overrides.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </Page>
+	</ItemGroup>
+
+	<!--
+    Defining the "HasPackageAndPublishMenuAddedByProject" property here allows the Solution
+    Explorer "Package and Publish" context menu entry to be enabled for this project even if
+    the Windows App SDK Nuget package has not yet been restored.
+  -->
+	<PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
+		<HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
+	</PropertyGroup>
+
+	<!-- Publish Properties -->
+	<PropertyGroup>
+		<PublishReadyToRun Condition="'$(Configuration)' == 'Debug'">False</PublishReadyToRun>
+		<PublishReadyToRun Condition="'$(Configuration)' != 'Debug'">True</PublishReadyToRun>
+		<PublishTrimmed Condition="'$(Configuration)' == 'Debug'">False</PublishTrimmed>
+		<PublishTrimmed Condition="'$(Configuration)' != 'Debug'">True</PublishTrimmed>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+</Project>
